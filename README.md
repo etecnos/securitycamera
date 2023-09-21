@@ -11,6 +11,7 @@ Replace example passkey with a passkey of your email(first enable 2 factor authe
 
 Replace example2@gmail.com with the address you want to receive the email
 
+Download haarcascade_frontalface_default.xml and move it to the project folder to be able to detect faces
 
 ~etecnos
 
