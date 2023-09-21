@@ -7,8 +7,8 @@ from email import encoders
 
 def send_email(subject, message, to_email, image_path):
     # Email configuration
-    from_email = "johngeorga4@gmail.com"  # Replace with your email address
-    password = "shph pjsy nmcp qkcv"  # Replace with your email password
+    from_email = "example@gmail.com"  # Replace with your email address
+    password = "example passkey"  # Replace with your email password
 
     # Create the email message
     msg = MIMEMultipart()
@@ -39,7 +39,7 @@ def send_email(subject, message, to_email, image_path):
         print(f"Error: {e}")
 
 def execute():
-    recipient_email = "epgiannakakis@gmail.com"  # Replace with the recipient's email address
+    recipient_email = "example2@gmail.com"  # Replace with the recipient's email address
     email_subject = "Sample Subject"
     email_message = "This is a sample email with pictures."
 
